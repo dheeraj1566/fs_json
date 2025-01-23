@@ -1,0 +1,32 @@
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.load-more, .download-json {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more:hover, .download-json:hover {
+  background-color: #45a049;
+}
