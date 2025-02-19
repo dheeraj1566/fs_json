@@ -46,7 +46,6 @@ const PokemonList = () => {
     }
   };
 
-// console.log(pokemons.slice(0, 20));
 
   function downloadJSON()  {
     const first20Pokemons = pokemons.slice(0, 20);

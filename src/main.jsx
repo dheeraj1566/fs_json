@@ -6,7 +6,6 @@ import PokemonList from './Pokemon.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
     <PokemonList/>
   </StrictMode>,
 )
